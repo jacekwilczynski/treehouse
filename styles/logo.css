@@ -1,7 +1,7 @@
 .logo__circle {
   background-color: #7cc576;
   border-radius: 50%;
-  display: inline-block;
+  float: left;
   height: 28px;
   position: relative;
   width: 28px;
@@ -18,5 +18,7 @@
   display: inline-block;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
+  margin: 0 6px;
+  padding-top: 5px;
   text-transform: uppercase;
 }
