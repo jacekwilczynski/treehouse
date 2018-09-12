@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 16" width="25" height="16">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ebebeb } 
+	</style>
+	<path id="-e-footer__email" class="shp0" d="M24.1,15.96l-7.24,-6.52l-4.34,3.62l-4.34,-3.62l-7.24,6.52zM24.1,3.65l-6.52,5.07l6.52,5.79zM0.93,14.51l6.52,-5.79l-6.52,-5.07zM0.93,0.03v2.17l11.59,9.41l11.59,-9.41v-2.17z" />
+</svg>
