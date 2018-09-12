@@ -1,3 +1,9 @@
+.header__row::before, .header__row::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
 .header__col--left {
   float: left;
 }

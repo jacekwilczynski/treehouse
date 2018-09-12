@@ -1,6 +1,7 @@
 .navbar__list {
   font-family: Montserrat, sans-serif;
   font-size: 0.875em;
+  line-height: 7.19em;
   list-style: none;
   text-transform: uppercase;
 }
@@ -17,6 +18,6 @@
 
 .navbar__link {
   color: inherit;
-  padding: 0.5em 1.29em;
+  padding: 0 1.29em;
   text-decoration: inherit;
 }
