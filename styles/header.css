@@ -4,10 +4,10 @@
   display: table;
 }
 
-.header__col--left {
+.header__col--logo {
   float: left;
 }
 
-.header__col--right {
+.header__col--navbar {
   float: right;
 }
