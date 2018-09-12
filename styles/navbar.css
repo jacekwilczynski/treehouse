@@ -1,3 +1,8 @@
+.navbar__toggle {
+  background: none;
+  border: none;
+}
+
 @media (min-width: 48em) {
   .navbar__toggle {
     display: none;
