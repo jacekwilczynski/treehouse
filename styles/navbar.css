@@ -1,0 +1,22 @@
+.navbar__list {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875em;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.navbar__list::before, .navbar__list::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.navbar__item {
+  float: left;
+}
+
+.navbar__link {
+  color: inherit;
+  padding: 0.5em 1.29em;
+  text-decoration: inherit;
+}
