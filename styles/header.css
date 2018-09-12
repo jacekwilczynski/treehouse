@@ -11,3 +11,13 @@
 .header__col--navbar {
   float: right;
 }
+
+@media (max-width: 48em) {
+  .header__col--logo {
+    float: right;
+  }
+
+  .header__col--navbar {
+    float: left;
+  }
+}
