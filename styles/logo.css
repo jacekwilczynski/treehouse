@@ -2,6 +2,13 @@
   padding: 2.72em 1.29em;
 }
 
+@media (max-width: 48em) {
+  .logo {
+    padding-bottom: 0.65em;
+    padding-top: 0.65em;
+  }
+}
+
 .logo__circle {
   background-color: #7cc576;
   border-radius: 50%;
