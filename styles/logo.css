@@ -1,0 +1,15 @@
+.logo__circle {
+  background-color: #7cc576;
+  border-radius: 50%;
+  display: inline-block;
+  height: 28px;
+  position: relative;
+  width: 28px;
+}
+
+.logo__leaf {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
