@@ -17,4 +17,6 @@
 .logo__text {
   display: inline-block;
   font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
