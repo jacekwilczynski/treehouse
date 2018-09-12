@@ -6,6 +6,16 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 48em) {
+  .navbar__list {
+    display: none;
+  }
+
+  .navbar__list--open {
+    display: block;
+  }
+}
+
 .navbar__list::before, .navbar__list::after {
   clear: both;
   content: '';
@@ -14,6 +24,12 @@
 
 .navbar__item {
   float: left;
+}
+
+@media (max-width: 48em) {
+  .navbar__item {
+    float: none;
+  }
 }
 
 .navbar__link {
