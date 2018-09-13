@@ -5,11 +5,14 @@
   text-align: center;
 }
 
+.title-section__text {
+  margin: 0 auto;
+}
+
 .title-section__text--primary {
   font-family: Montserrat, sans-serif;
   font-size: 60px;
   font-weight: bold;
-  margin: 0 auto;
   max-width: 10em;
   text-transform: uppercase;
 }
@@ -17,5 +20,4 @@
 .title-section__text--secondary {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
-  margin-top: 0;
 }
