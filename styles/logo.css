@@ -1,12 +1,5 @@
 .logo {
-  padding: 42px 1.29em 46px;
-}
-
-@media (max-width: 48em) {
-  .logo {
-    padding-bottom: 0.65em;
-    padding-top: 0.65em;
-  }
+  padding: 0 1.29em;
 }
 
 .logo__circle {

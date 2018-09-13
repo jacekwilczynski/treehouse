@@ -17,7 +17,7 @@
   width: 35px;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 41em) {
   .navbar__toggle {
     display: none;
   }
@@ -26,14 +26,13 @@
 .navbar__list {
   font-family: Montserrat, sans-serif;
   font-size: 0.875em;
-  line-height: 115px;
   list-style: none;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 41em) {
   .navbar__list {
     display: none;
     font-size: 1.5em;
@@ -56,7 +55,7 @@
   float: left;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 41em) {
   .navbar__item {
     float: none;
   }
