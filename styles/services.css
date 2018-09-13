@@ -1,0 +1,60 @@
+.services {
+  padding: 102px 1em;
+  text-align: center;
+}
+
+.services__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0 0 24px;
+  text-transform: uppercase;
+}
+
+.services__subtitle {
+  color: #777;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 86px;
+}
+
+.services__row {
+  clear: both;
+  content: '';
+  display: table;
+  margin-right: -55px;
+}
+
+.services__col {
+  box-sizing: border-box;
+  float: left;
+  padding-right: 55px;
+  width: 33%;
+}
+
+@media (max-width: 48em) {
+  .services__col {
+    margin-bottom: 3em;
+    width: 100%;
+  }
+}
+
+.services__icon-container {
+  height: 86px;
+}
+
+.services__feature-name {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.services__feature-description {
+  color: #777;
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
