@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.title-section__heading {
+.title-section__text--primary {
   font-family: Montserrat, sans-serif;
   font-size: 60px;
   font-weight: bold;
@@ -14,7 +14,7 @@
   text-transform: uppercase;
 }
 
-.title-section__subheading {
+.title-section__text--secondary {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   margin-top: 0;
