@@ -23,10 +23,13 @@
   clear: both;
   content: '';
   display: table;
+  margin-right: -55px;
 }
 
 .services__col {
+  box-sizing: border-box;
   float: left;
+  padding-right: 55px;
   width: 33%;
 }
 
