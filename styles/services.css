@@ -12,6 +12,7 @@
 .services__subtitle {
   font-family: "Roboto Slab", serif;
   font-size: 20px;
+  font-weight: normal;
 }
 
 .services__row {
