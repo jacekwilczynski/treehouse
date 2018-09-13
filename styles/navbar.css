@@ -38,6 +38,8 @@
     font-size: 1em;
     line-height: 4;
     position: absolute;
+    text-align: center;
+    width: 100vw;
   }
 
   .navbar__list--open {
