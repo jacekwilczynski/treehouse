@@ -35,6 +35,7 @@
 
 @media (max-width: 48em) {
   .services__col {
+    margin-bottom: 3em;
     width: 100%;
   }
 }
