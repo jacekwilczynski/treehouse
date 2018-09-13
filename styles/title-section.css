@@ -1,0 +1,19 @@
+.title-section {
+  background: url(../images/title-section.jpg) center/cover;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.title-section__heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 60px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.title-section__subheading {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin-top: 0;
+}
