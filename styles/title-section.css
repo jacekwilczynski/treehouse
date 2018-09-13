@@ -1,8 +1,12 @@
 .title-section {
   background: url(../images/title-section.jpg) center/cover;
   color: #fff;
-  padding: 118px 1em;
   text-align: center;
+}
+
+.title-section__dark-layer {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 118px 1em;
 }
 
 .title-section__text {
