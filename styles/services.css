@@ -34,3 +34,7 @@
     width: 100%;
   }
 }
+
+.services__icon-container {
+  height: 86px;
+}
