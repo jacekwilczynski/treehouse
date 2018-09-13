@@ -26,8 +26,10 @@
 .navbar__list {
   font-family: Montserrat, sans-serif;
   font-size: 0.875em;
-  line-height: 7.19em;
+  line-height: 115px;
   list-style: none;
+  margin: 0;
+  padding: 0;
   text-transform: uppercase;
 }
 
