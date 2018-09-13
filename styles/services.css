@@ -12,6 +12,7 @@
 }
 
 .services__subtitle {
+  color: #777;
   font-family: "Roboto Slab", serif;
   font-size: 20px;
   font-weight: normal;
@@ -47,6 +48,7 @@
 }
 
 .services__feature-description {
+  color: #777;
   font-family: "Roboto Slab", serif;
   font-weight: normal;
   font-size: 14px;
