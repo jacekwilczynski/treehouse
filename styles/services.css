@@ -1,0 +1,32 @@
+.services {
+  text-align: center;
+}
+
+.services__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.services__subtitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+
+.services__row {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.services__col {
+  float: left;
+  width: 33%;
+}
+
+@media (max-width: 48em) {
+  .services__col {
+    width: 100%;
+  }
+}
