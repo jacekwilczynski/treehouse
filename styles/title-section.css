@@ -1,7 +1,7 @@
 .title-section {
   background: url(../images/title-section.jpg) center/cover;
   color: #fff;
-  padding: 1em;
+  padding: 118px 1em;
   text-align: center;
 }
 
@@ -13,6 +13,7 @@
   font-family: Montserrat, sans-serif;
   font-size: 60px;
   font-weight: bold;
+  margin-bottom: 40px;
   max-width: 10em;
   text-transform: uppercase;
 }
@@ -20,4 +21,5 @@
 .title-section__text--secondary {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
+  margin-bottom: 53px;
 }
