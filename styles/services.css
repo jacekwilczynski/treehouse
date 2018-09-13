@@ -38,3 +38,16 @@
 .services__icon-container {
   height: 86px;
 }
+
+.services__feature-name {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.services__feature-description {
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  font-size: 14px;
+}
