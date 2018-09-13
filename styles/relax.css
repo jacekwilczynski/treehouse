@@ -1,0 +1,23 @@
+.relax::before, .relax::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.relax__left {
+  float: left;
+  width: 30%;
+}
+
+.relax__right {
+  background: url(../images/just-relax.jpg);
+  box-sizing: border-box;
+  color: #fff;
+  float: right;
+  width: 70%;
+}
+
+.relax__overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 100px;
+}
