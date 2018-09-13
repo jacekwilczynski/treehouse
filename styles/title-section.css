@@ -22,6 +22,12 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 41em) {
+  .title-section__text--primary {
+    font-size: 2em;
+  }
+}
+
 .title-section__text--secondary {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
