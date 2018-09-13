@@ -1,3 +1,7 @@
+.navbar {
+  position: relative;
+}
+
 .navbar__toggle {
   background: none;
   border: 0;
@@ -32,6 +36,7 @@
     display: none;
     font-size: 1.5em;
     line-height: 3;
+    position: absolute;
   }
 
   .navbar__list--open {
