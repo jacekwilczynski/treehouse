@@ -35,8 +35,8 @@
 @media (max-width: 41em) {
   .navbar__list {
     display: none;
-    font-size: 1.5em;
-    line-height: 3;
+    font-size: 1em;
+    line-height: 4;
     position: absolute;
   }
 
