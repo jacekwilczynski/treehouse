@@ -1,7 +1,42 @@
-.header__col--left {
-  float: left;
+.header__row {
+  height: 115px;
+  position: relative;
 }
 
-.header__col--right {
-  float: right;
+.header__row::before, .header__row::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+@media (max-width: 41em) {
+  .header__row {
+    height: 3.4em;
+  }
+}
+
+.header__col {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.header__col--logo {
+  left: 0;
+}
+
+.header__col--navbar {
+  right: 0;
+}
+
+@media (max-width: 41em) {
+  .header__col--logo {
+    left: auto;
+    right: 0;
+  }
+
+  .header__col--navbar {
+    left: 0;
+    right: auto;
+  }
 }

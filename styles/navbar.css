@@ -1,0 +1,70 @@
+.navbar {
+  position: relative;
+}
+
+.navbar__toggle {
+  background: none;
+  border: 0;
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+.navbar__hamburger-stripe {
+  background-color: #000;
+  display: block;
+  height: 5px;
+  margin: 6px 0;
+  width: 35px;
+}
+
+@media (min-width: 41em) {
+  .navbar__toggle {
+    display: none;
+  }
+}
+
+.navbar__list {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.875em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 41em) {
+  .navbar__list {
+    display: none;
+    font-size: 1em;
+    line-height: 4;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .navbar__list--open {
+    display: block;
+  }
+}
+
+.navbar__list::before, .navbar__list::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.navbar__item {
+  float: left;
+}
+
+@media (max-width: 41em) {
+  .navbar__item {
+    float: none;
+  }
+}
+
+.navbar__link {
+  color: inherit;
+  padding: 0 1.29em;
+  text-decoration: inherit;
+}

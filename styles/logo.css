@@ -1,0 +1,28 @@
+.logo {
+  padding: 0 1.29em;
+}
+
+.logo__circle {
+  background-color: #7cc576;
+  border-radius: 50%;
+  float: left;
+  height: 28px;
+  position: relative;
+  width: 28px;
+}
+
+.logo__leaf {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo__text {
+  display: inline-block;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  margin: 0 6px;
+  padding-top: 4px;
+  text-transform: uppercase;
+}

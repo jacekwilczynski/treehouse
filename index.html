@@ -4,8 +4,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Treehouse - Creative Digital Solutions</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <div class="header__col header__col--logo">
+          <div class="logo">
+            <span class="logo__circle">
+              <img src="images/header__leaf.png" alt="" class="logo__leaf">
+            </span>
+            <h1 class="logo__text">Treehouse</h1>
+          </div>
+        </div>
+        <div class="header__col header__col--navbar">
+          <nav class="navbar">
+            <button class="navbar__toggle" data-toggle-class="navbar__list--open" data-target="#navbar__list">
+              <span class="navbar__hamburger-stripe"></span>
+              <span class="navbar__hamburger-stripe"></span>
+              <span class="navbar__hamburger-stripe"></span>
+            </button>
+            <ul class="navbar__list" id="navbar__list">
+              <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+              <li class="navbar__item"><a href="#" class="navbar__link">About</a></li>
+              <li class="navbar__item"><a href="#" class="navbar__link">Blog</a></li>
+              <li class="navbar__item"><a href="#" class="navbar__link">Portfolio</a></li>
+              <li class="navbar__item"><a href="#" class="navbar__link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script src="scripts/class-toggle.js"></script>
 </body>
 </html>
