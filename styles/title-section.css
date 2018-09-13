@@ -8,7 +8,8 @@
 .title-section__heading {
   font-family: Montserrat, sans-serif;
   font-size: 60px;
-  margin-top: 0;
+  margin: 0 auto;
+  max-width: 10em;
   text-transform: uppercase;
 }
 
