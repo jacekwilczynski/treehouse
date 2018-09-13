@@ -19,11 +19,10 @@
   margin: 0 0 86px;
 }
 
-.services__row {
+.services__row::before, .services__row::after {
   clear: both;
   content: '';
   display: table;
-  margin-right: -55px;
 }
 
 .services__col {
@@ -33,9 +32,16 @@
   width: 33%;
 }
 
+.services__col:last-child {
+  padding-right: 0;
+}
+
 @media (max-width: 48em) {
   .services__col {
-    margin-bottom: 3em;
+    float: none;
+    margin: 0 auto 3em;
+    max-width: 20em;
+    padding-right: 0;
     width: 100%;
   }
 }
