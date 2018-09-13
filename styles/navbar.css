@@ -30,6 +30,8 @@
 @media (max-width: 48em) {
   .navbar__list {
     display: none;
+    font-size: 1.5em;
+    line-height: 3;
   }
 
   .navbar__list--open {
