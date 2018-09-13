@@ -1,0 +1,14 @@
+.button {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button--rounded {
+  background-color: #7cc576;
+  border: none;
+  border-radius: 63px;
+  color: #fff;
+  font-size: 15px;
+  padding: 24px 36px;
+}
