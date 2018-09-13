@@ -1,6 +1,16 @@
 .navbar__toggle {
   background: none;
-  border: none;
+  border: 0;
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+.navbar__hamburger-stripe {
+  background-color: #000;
+  display: block;
+  height: 5px;
+  margin: 6px 0;
+  width: 35px;
 }
 
 @media (min-width: 48em) {
