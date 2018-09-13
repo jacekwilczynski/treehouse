@@ -24,6 +24,7 @@
 }
 
 .navbar__list {
+  background-color: #fff;
   font-family: Montserrat, sans-serif;
   font-size: 0.875em;
   list-style: none;
