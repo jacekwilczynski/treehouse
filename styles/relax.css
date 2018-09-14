@@ -12,7 +12,6 @@
 .relax__right {
   background: url(../images/just-relax.jpg);
   box-sizing: border-box;
-  color: #fff;
   float: right;
   width: 70%;
 }
@@ -23,6 +22,7 @@
 }
 
 .relax__title {
+  color: #fff;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-size: 40px;
@@ -36,6 +36,7 @@
 }
 
 .relax__text {
+  color: #ccc;
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 1.5;
@@ -43,6 +44,7 @@
 }
 
 .relax__list {
+  color: #ccc;
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   list-style: none;
