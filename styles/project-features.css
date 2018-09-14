@@ -3,10 +3,16 @@
   padding: 0;
 }
 
+.project-features__item::before, .project-features__item::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
 .project-features__circle {
   border: 3px solid black;
   border-radius: 50%;
-  display: inline-block;
+  float: left;
   height: 69px;
   position: relative;
   width: 69px;
@@ -17,4 +23,12 @@
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.project-features__text {
+  float: left;
+}
+
+.project-features__name {
+  margin-top: 0;
 }
