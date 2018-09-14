@@ -22,7 +22,7 @@
 }
 
 .relax__right {
-  background: url(../images/just-relax.jpg);
+  background: url(../images/just-relax.jpg) center/cover;
   box-sizing: border-box;
   float: right;
   position: relative;
