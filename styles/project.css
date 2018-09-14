@@ -41,13 +41,6 @@
   }
 }
 
-.project__small-heading {
-  font-family: Montserrat, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 .project__text {
   color: #777;
   max-width: 26.25em;
