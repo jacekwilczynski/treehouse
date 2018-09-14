@@ -1,3 +1,8 @@
+.project {
+  background: url(../images/projects_ipad.jpg) no-repeat 50vw center;
+  padding: 2em;
+}
+
 .project__title {
   font-family: Montserrat, sans-serif;
   font-size: 40px;
