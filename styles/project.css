@@ -12,3 +12,13 @@
   font-size: 20px;
   text-align: center;
 }
+
+.project__row::before, .project__row::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.project__col--text {
+  float: left;
+}
