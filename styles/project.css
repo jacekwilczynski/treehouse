@@ -18,6 +18,14 @@
   text-align: center;
 }
 
+@media (max-width: 48em) {
+  .project__body {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 .project__text {
   color: #777;
   max-width: 26.25em;

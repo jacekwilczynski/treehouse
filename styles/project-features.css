@@ -1,6 +1,7 @@
 .project-features {
   list-style: none;
   padding: 0;
+  text-align: left;
 }
 
 .project-features__item {
