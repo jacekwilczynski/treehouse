@@ -5,14 +5,18 @@
 }
 
 .relax__left {
-  float: left;
-  width: 30%;
+  background-color: #e9e9e9;
+  position: absolute;
+  height: 100%;
+  left: -30vw;
+  width: 30vw;
 }
 
 .relax__right {
   background: url(../images/just-relax.jpg);
   box-sizing: border-box;
   float: right;
+  position: relative;
   width: 70%;
 }
 
