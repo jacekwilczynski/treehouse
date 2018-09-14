@@ -1,3 +1,7 @@
+.project {
+  overflow: hidden;
+}
+
 .project__title {
   font-family: Montserrat, sans-serif;
   font-size: 40px;
@@ -19,6 +23,11 @@
   display: table;
 }
 
-.project__col--text {
+.project__col {
   float: left;
+  width: 50%;
+}
+
+.project__col--image {
+  height: 518px;
 }
