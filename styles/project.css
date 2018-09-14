@@ -9,6 +9,18 @@
   }
 }
 
+@media (max-width: 34em) {
+  .project {
+    padding: calc(-100px + 36.74vw);
+  }
+}
+
+@media (max-width: 20em) {
+  .project {
+    padding: 1.1em;
+  }
+}
+
 .project__title {
   font-family: Montserrat, sans-serif;
   font-size: 40px;
