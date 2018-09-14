@@ -5,18 +5,12 @@
 
 .project-features__item {
   margin-bottom: 1em;
-}
-
-.project-features__item::before, .project-features__item::after {
-  clear: both;
-  content: '';
-  display: table;
+  position: relative;
 }
 
 .project-features__circle {
   border: 3px solid black;
   border-radius: 50%;
-  float: left;
   height: 69px;
   position: relative;
   width: 69px;
@@ -30,8 +24,10 @@
 }
 
 .project-features__text {
-  float: left;
-  margin-left: 1em;
+  position: absolute;
+  left: 85px;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .project-features__name {
