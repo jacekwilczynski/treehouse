@@ -1,6 +1,6 @@
 .project {
   background: url(../images/projects_ipad.jpg) no-repeat 50vw center;
-  padding: 2em;
+  padding: 100px;
 }
 
 @media (max-width: 48em) {
