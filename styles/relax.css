@@ -29,6 +29,13 @@
   width: 70%;
 }
 
+@media (max-width: 48em) {
+  .relax__right {
+    width: 33.6em;
+    max-width: 100%;
+  }
+}
+
 .relax__overlay {
   background-color: rgba(0, 0, 0, 0.75);
   padding: 100px;
