@@ -21,3 +21,15 @@
   background-color: rgba(0, 0, 0, 0.75);
   padding: 100px;
 }
+
+.relax__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.relax__title--accent {
+  color: #7cc576;
+}
