@@ -3,7 +3,7 @@
   padding: 100px;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 51em) {
   .project {
     background: none;
   }
@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 51em) {
   .project__subtitle {
     margin-bottom: 2em;
   }
