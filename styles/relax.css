@@ -26,6 +26,7 @@
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-size: 40px;
+  margin-bottom: 43px;
   margin-top: 0;
   text-transform: uppercase;
 }
@@ -38,12 +39,14 @@
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 1.5;
+  margin-bottom: 22px;
 }
 
 .relax__list {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   list-style: none;
+  margin-bottom: 50px;
   padding: 0;
 }
 
