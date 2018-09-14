@@ -41,6 +41,18 @@
   padding: 100px;
 }
 
+@media (max-width: 34em) {
+  .relax__overlay {
+    padding: calc(-100px + 36.74vw);
+  }
+}
+
+@media (max-width: 20em) {
+  .relax__overlay {
+    padding: 1.1em;
+  }
+}
+
 .relax__title {
   color: #fff;
   font-family: Montserrat, sans-serif;
