@@ -1,0 +1,48 @@
+.project-features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.project-features__item {
+  margin-bottom: 1em;
+  display: table;
+}
+
+.project-features__icon {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.project-features__circle {
+  border: 3px solid black;
+  border-radius: 50%;
+  height: 69px;
+  position: relative;
+  width: 69px;
+}
+
+.project-features__image {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-features__text {
+  display: table-cell;
+  padding-left: 1em;
+  vertical-align: middle;
+}
+
+.project-features__name {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 7px;
+}
+
+.project-features__description {
+  color: #777;
+  margin: 0;
+}
