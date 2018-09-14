@@ -1,0 +1,14 @@
+.project__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.project__subtitle {
+  color: #777;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  text-align: center;
+}
