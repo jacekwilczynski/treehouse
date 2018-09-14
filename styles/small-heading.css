@@ -4,3 +4,7 @@
   font-size: 18px;
   text-transform: uppercase;
 }
+
+.small-heading--dim {
+  color: #555;
+}
