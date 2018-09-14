@@ -15,7 +15,7 @@
 
 .relax__gear {
   position: absolute;
-  left: 30vw;
+  left: 100%;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
