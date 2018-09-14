@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.project-features__item {
+  margin-bottom: 1em;
+}
+
 .project-features__item::before, .project-features__item::after {
   clear: both;
   content: '';
