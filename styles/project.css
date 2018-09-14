@@ -3,6 +3,12 @@
   padding: 2em;
 }
 
+@media (max-width: 48em) {
+  .project {
+    background: none;
+  }
+}
+
 .project__title {
   font-family: Montserrat, sans-serif;
   font-size: 40px;
