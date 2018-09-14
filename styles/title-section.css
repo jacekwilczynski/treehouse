@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.title-section__dark-layer {
+.title-section__overlay {
   background-color: rgba(0, 0, 0, 0.75);
   padding: 118px 1em;
 }
