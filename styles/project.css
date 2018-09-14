@@ -22,3 +22,12 @@
   color: #777;
   max-width: 26.25em;
 }
+
+.project__link {
+  color: #7cc576;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
