@@ -31,8 +31,13 @@
 
 .project-features__text {
   float: left;
+  margin-left: 1em;
 }
 
 .project-features__name {
-  margin-top: 0;
+  margin: 0 0 7px;
+}
+
+.project-features__description {
+  margin: 0;
 }
