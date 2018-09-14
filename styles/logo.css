@@ -20,9 +20,6 @@
 
 .logo__text {
   display: inline-block;
-  font-family: Montserrat, sans-serif;
-  font-size: 18px;
   margin: 0 6px;
   padding-top: 4px;
-  text-transform: uppercase;
 }
