@@ -1,5 +1,6 @@
 .project {
-  overflow: hidden;
+  background: url(../images/projects_ipad.jpg) no-repeat 50vw center;
+  padding: 2em;
 }
 
 .project__title {
@@ -17,17 +18,6 @@
   text-align: center;
 }
 
-.project__row::before, .project__row::after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-.project__col {
-  float: left;
-  width: 50%;
-}
-
-.project__col--image {
-  height: 518px;
+.project__text {
+  max-width: 26.25em;
 }
