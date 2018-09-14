@@ -9,17 +9,20 @@
   display: table;
 }
 
+.project-features__icon {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .project-features__circle {
   border: 3px solid black;
   border-radius: 50%;
-  display: table-cell;
   height: 69px;
-  vertical-align: middle;
   position: relative;
   width: 69px;
 }
 
-.project-features__icon {
+.project-features__image {
   left: 50%;
   position: absolute;
   top: 50%;
