@@ -4,11 +4,7 @@
 }
 
 .services__title {
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  font-size: 40px;
   margin: 0 0 24px;
-  text-transform: uppercase;
 }
 
 @media (max-width: 25em) {

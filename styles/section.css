@@ -1,3 +1,19 @@
+.section__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__title--big {
+  font-size: 60px;
+}
+
+.section__title--left {
+  text-align: left;
+}
+
 .section__subtitle {
   color: #777;
   font-family: "Roboto Slab", serif;

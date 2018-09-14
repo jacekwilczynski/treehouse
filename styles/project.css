@@ -22,12 +22,7 @@
 }
 
 .project__title {
-  font-family: Montserrat, sans-serif;
-  font-size: 40px;
-  font-weight: bold;
   margin: 0 0 23px;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .project__subtitle {
