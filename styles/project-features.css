@@ -6,13 +6,15 @@
 
 .project-features__item {
   margin-bottom: 1em;
-  position: relative;
+  display: table;
 }
 
 .project-features__circle {
   border: 3px solid black;
   border-radius: 50%;
+  display: table-cell;
   height: 69px;
+  vertical-align: middle;
   position: relative;
   width: 69px;
 }
@@ -25,10 +27,9 @@
 }
 
 .project-features__text {
-  position: absolute;
-  left: 85px;
-  top: 50%;
-  transform: translate(0, -50%);
+  display: table-cell;
+  padding-left: 1em;
+  vertical-align: middle;
 }
 
 .project-features__name {
