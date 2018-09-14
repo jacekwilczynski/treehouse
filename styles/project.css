@@ -31,11 +31,7 @@
 }
 
 .project__subtitle {
-  color: #777;
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
   margin: 0 0 5.25em;
-  text-align: center;
 }
 
 @media (max-width: 51em) {

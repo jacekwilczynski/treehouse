@@ -17,14 +17,6 @@
   }
 }
 
-.services__subtitle {
-  color: #777;
-  font-family: "Roboto Slab", serif;
-  font-size: 20px;
-  font-weight: normal;
-  margin: 0 0 86px;
-}
-
 @media (max-width: 25em) {
   .services__subtitle {
     font-size: 1em;
