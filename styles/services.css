@@ -5,11 +5,3 @@
 .services__icon-container {
   height: 86px;
 }
-
-.services__feature-description {
-  color: #777;
-  font-family: "Roboto Slab", serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-}
