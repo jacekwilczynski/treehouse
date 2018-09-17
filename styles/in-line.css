@@ -1,0 +1,18 @@
+.in-line {
+  display: table;
+}
+
+.in-line__element {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (max-width: 48em) {
+  .in-line--break {
+    display: block;
+  }
+
+  .in-line--break .in-line__element {
+    display: block;
+  }
+}
