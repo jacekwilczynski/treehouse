@@ -12,13 +12,6 @@
   width: 70%;
 }
 
-@media (max-width: 48em) {
-  .relax__right {
-    width: 33.6em;
-    max-width: 100%;
-  }
-}
-
 .relax__left {
   background-color: #e9e9e9;
   position: absolute;
@@ -26,6 +19,16 @@
   left: -30vw;
   width: 30vw;
   z-index: -1;
+}
+
+@media (max-width: 48em) {
+  .relax__left {
+    display: none;
+  }
+
+  .relax__right {
+    width: 100%;
+  }
 }
 
 .relax__gear {
