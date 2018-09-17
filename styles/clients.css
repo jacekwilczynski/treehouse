@@ -58,6 +58,6 @@
 
 .clients__client::before {
   content: '-';
+  margin-left: -0.6em;
   position: absolute;
-  transform: translate(-150%, 0);
 }
