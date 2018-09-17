@@ -1,0 +1,15 @@
+.responsive-padding {
+  padding: 100px;
+}
+
+@media (max-width: 34em) {
+  .responsive-padding {
+    padding: calc(-100px + 36.74vw);
+  }
+}
+
+@media (max-width: 20em) {
+  .responsive-padding {
+    padding: 1.1em;
+  }
+}
