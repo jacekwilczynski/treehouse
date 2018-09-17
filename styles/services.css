@@ -1,5 +1,4 @@
 .services {
-  padding: 102px 1em;
   text-align: center;
 }
 
@@ -43,6 +42,10 @@
     max-width: 20em;
     padding-right: 0;
     width: 100%;
+  }
+
+  .services__col:last-child {
+    margin-bottom: 0;
   }
 }
 
