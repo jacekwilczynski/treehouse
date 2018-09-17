@@ -34,3 +34,7 @@
   line-height: 2;
   margin-left: 52px;
 }
+
+.clients__identity::before {
+  content: '- ';
+}
