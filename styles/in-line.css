@@ -9,10 +9,10 @@
 
 @media (max-width: 48em) {
   .in-line--break {
-    display: initial;
+    display: block;
   }
 
   .in-line--break .in-line__element {
-    display: initial;
+    display: block;
   }
 }

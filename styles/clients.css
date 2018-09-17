@@ -1,6 +1,24 @@
+.clients__testimonial {
+  position: relative;
+}
+
 .clients__testimonial:not(:last-child) {
   margin-bottom: 40px;
 }
+
+@media (max-width: 48em) {
+  .clients__image-container {
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+  }
+
+  .clients__text-container {
+    padding-top: 250px;
+  }
+}
+
 
 .clients__circle {
   background-color: #f9f9f9;
