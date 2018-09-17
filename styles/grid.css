@@ -24,6 +24,10 @@
 }
 
 @media (max-width: 48em) {
+  .grid {
+    margin-right: 0;
+  }
+
   .grid__cell {
     float: none;
     margin: 0 auto 3em;

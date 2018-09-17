@@ -2,3 +2,9 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
+
+@media (max-width: 18em) {
+  body {
+    word-break: break-all;
+  }
+}
