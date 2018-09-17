@@ -1,6 +1,6 @@
-@import 'clients__text-box.css';
-@import 'clients__quote.css';
-@import 'clients__client.css';
+@import 'clients/clients__text-box.css';
+@import 'clients/clients__quote.css';
+@import 'clients/clients__client.css';
 
 .clients__testimonial {
   position: relative;
