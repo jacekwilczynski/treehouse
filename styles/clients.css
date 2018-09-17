@@ -12,6 +12,7 @@
 }
 
 .clients__text-container {
+  background-color: #f9f9f9;
   box-sizing: border-box;
   display: table-cell;
   font-family: "Roboto Slab", serif;
