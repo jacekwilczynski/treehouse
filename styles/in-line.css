@@ -1,8 +1,8 @@
-.vertical-aligner {
+.in-line__container {
   display: table;
 }
 
-.vertical-aligner__subject {
+.in-line__element {
   display: table-cell;
   vertical-align: middle;
 }
