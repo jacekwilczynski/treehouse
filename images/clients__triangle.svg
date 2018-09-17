@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" width="21" height="24">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f9f9f9 } 
+	</style>
+	<path id="Triangle" class="shp0" d="M20.52,23.65v-22.73l-19.68,11.36z" />
+</svg>

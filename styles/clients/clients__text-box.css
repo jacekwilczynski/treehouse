@@ -9,6 +9,7 @@
 @media (min-width: 48em) {
   .clients__text-box {
     padding: 45px;
+    position: relative;
   }
 
   .clients__text-box--right {
@@ -19,5 +20,21 @@
   .clients__text-box--left {
     margin-left: 35px;
     margin-right: 45px;
+  }
+
+  .clients__text-box--right::before, .clients__text-box--left::after {
+    content: url(../../images/clients__triangle.svg);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .clients__text-box--right::before {
+    left: -20px;
+  }
+
+  .clients__text-box--left::after {
+    right: -20px;
+    transform: translate(0, -50%) rotate(180deg);
   }
 }
