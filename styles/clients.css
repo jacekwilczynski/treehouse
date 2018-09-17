@@ -36,10 +36,14 @@
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
   max-width: 642px;
-  padding: 45px;
+  padding: 1em;
 }
 
 @media (min-width: 48em) {
+  .clients__text-box {
+    padding: 45px;
+  }
+
   .clients__text-box--right {
     margin-left: 45px;
     margin-right: 35px;
@@ -61,14 +65,22 @@
 
 .clients__quote::before {
   content: '“';
-  margin-left: -0.6em;
-  position: absolute;
 }
 
 .clients__quote::after {
   content: '”';
-  margin-left: 0.2em;
-  position: absolute;
+}
+
+@media (min-width: 48em) {
+  .clients__quote::before {
+    margin-left: -0.6em;
+    position: absolute;
+  }
+
+  .clients__quote::after {
+    margin-left: 0.2em;
+    position: absolute;
+  }
 }
 
 .clients__client {
@@ -80,8 +92,19 @@
   position: relative;
 }
 
+@media (max-width: 48em) {
+  .clients__client {
+    margin-left: 0;
+  }
+}
+
 .clients__client::before {
-  content: '-';
-  margin-left: -0.6em;
-  position: absolute;
+  content: '- ';
+}
+
+@media (min-width: 48em) {
+  .clients__client::before {
+    margin-left: -0.6em;
+    position: absolute;
+  }
 }
