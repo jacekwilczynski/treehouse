@@ -36,6 +36,10 @@
     width: 100%;
   }
 
+  .grid--tight .grid__cell {
+    padding-right: 0;
+  }
+
   .grid__cell:last-child {
     margin-bottom: 0;
   }
