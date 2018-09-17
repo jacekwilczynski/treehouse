@@ -7,6 +7,10 @@
 }
 
 @media (max-width: 48em) {
+  .clients__testimonial:not(:last-child) {
+    margin-bottom: 4em;
+  }
+
   .clients__image-container {
     left: 50%;
     position: absolute;
