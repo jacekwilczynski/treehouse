@@ -1,0 +1,8 @@
+.vertical-aligner {
+  display: table;
+}
+
+.vertical-aligner__subject {
+  display: table-cell;
+  vertical-align: middle;
+}

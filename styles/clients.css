@@ -1,24 +1,16 @@
-.clients__testimonial {
-  display: table;
-}
-
 .clients__image-container {
   background-color: #f9f9f9;
   border-radius: 50%;
-  display: table-cell;
   height: 220px;
-  vertical-align: middle;
   width: 220px;
 }
 
 .clients__text-box {
   background-color: #f9f9f9;
   box-sizing: border-box;
-  display: table-cell;
   font-family: "Roboto Slab", serif;
   max-width: 642px;
   padding: 45px;
-  vertical-align: middle;
 }
 
 .clients__quote {
