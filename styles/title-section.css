@@ -13,12 +13,6 @@
   max-width: 10em;
 }
 
-@media (max-width: 41em) {
-  .title-section__title {
-    font-size: 2em;
-  }
-}
-
 .title-section__subtitle {
   margin-bottom: 53px;
 }

@@ -14,6 +14,12 @@
   font-size: 60px;
 }
 
+@media (max-width: 41em) {
+  .section__title {
+    font-size: 2em;
+  }
+}
+
 .section__title--align-left {
   text-align: left;
 }
