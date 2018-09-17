@@ -12,6 +12,36 @@
   width: 88px;
 }
 
+.culture__icon-container::before, .culture__icon-container::after {
+  background-color: #777;
+  content: '';
+  display: block;
+  height: 2px;
+  max-width: 170px;
+  position: absolute;
+  top: 50%;
+  width: calc(-43px + 12.14vw);
+  z-index: 1;
+}
+
+.culture__icon-container::before {
+  margin-right: 30px;
+  right: 100%;
+}
+
+.grid__cell:first-child .culture__icon-container::before {
+  display: none;
+}
+
+.culture__icon-container::after {
+  left: 100%;
+  margin-left: 30px;
+}
+
+.grid__cell:last-child .culture__icon-container::after {
+  display: none;
+}
+
 .culture__icon {
   left: 49%;
   position: absolute;
