@@ -49,29 +49,3 @@
     position: absolute;
   }
 }
-
-.clients__client {
-  color: #7cc576;
-  display: block;
-  font-size: 18px;
-  font-style: normal;
-  margin-left: 65px;
-  position: relative;
-}
-
-@media (max-width: 48em) {
-  .clients__client {
-    margin-left: 0;
-  }
-}
-
-.clients__client::before {
-  content: '- ';
-}
-
-@media (min-width: 48em) {
-  .clients__client::before {
-    margin-left: -0.6em;
-    position: absolute;
-  }
-}
