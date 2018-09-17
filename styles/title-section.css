@@ -1,35 +1,18 @@
 .title-section {
   background: url(../images/title-section.jpg) bottom/cover;
-  color: #fff;
   text-align: center;
 }
 
-.title-section__dark-layer {
+.title-section__overlay {
   background-color: rgba(0, 0, 0, 0.75);
   padding: 118px 1em;
 }
 
-.title-section__text {
-  margin: 0 auto;
-}
-
-.title-section__text--primary {
-  font-family: Montserrat, sans-serif;
-  font-size: 60px;
-  font-weight: bold;
-  margin-bottom: 40px;
+.title-section__title {
+  margin: 0 auto 40px;
   max-width: 10em;
-  text-transform: uppercase;
 }
 
-@media (max-width: 41em) {
-  .title-section__text--primary {
-    font-size: 2em;
-  }
-}
-
-.title-section__text--secondary {
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
+.title-section__subtitle {
   margin-bottom: 53px;
 }

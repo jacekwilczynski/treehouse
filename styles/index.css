@@ -1,8 +1,11 @@
 @import 'global.css';
 @import 'container.css';
+@import 'small-heading.css';
+@import 'responsive-padding.css';
 @import 'header.css';
 @import 'logo.css';
 @import 'navbar.css';
+@import 'section.css';
 @import 'title-section.css';
 @import 'button.css';
 @import 'services.css';

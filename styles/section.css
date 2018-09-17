@@ -1,0 +1,42 @@
+.section {
+  margin: 1em 0;
+}
+
+.section--dark {
+  color: #fff;
+}
+
+.section__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0 0 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__title--big {
+  font-size: 60px;
+}
+
+@media (max-width: 41em) {
+  .section__title {
+    font-size: 2em;
+  }
+}
+
+.section__title--align-left {
+  text-align: left;
+}
+
+.section__subtitle {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 86px;
+  text-align: center;
+}
+
+.section--light .section__subtitle {
+  color: #777;
+}

@@ -1,0 +1,10 @@
+.small-heading {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.small-heading--dim {
+  color: #555;
+}

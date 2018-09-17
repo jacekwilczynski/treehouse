@@ -1,6 +1,5 @@
 .project {
   background: url(../images/projects_ipad.jpg) no-repeat 50vw center;
-  padding: 100px;
 }
 
 @media (max-width: 51em) {
@@ -9,33 +8,8 @@
   }
 }
 
-@media (max-width: 34em) {
-  .project {
-    padding: calc(-100px + 36.74vw);
-  }
-}
-
-@media (max-width: 20em) {
-  .project {
-    padding: 1.1em;
-  }
-}
-
-.project__title {
-  font-family: Montserrat, sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0 0 23px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .project__subtitle {
-  color: #777;
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
   margin: 0 0 5.25em;
-  text-align: center;
 }
 
 @media (max-width: 51em) {
@@ -48,13 +22,6 @@
     margin: 0 auto;
     text-align: center;
   }
-}
-
-.project__small-heading {
-  font-family: Montserrat, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 .project__text {

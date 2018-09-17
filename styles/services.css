@@ -1,34 +1,5 @@
 .services {
-  padding: 102px 1em;
   text-align: center;
-}
-
-.services__title {
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  margin: 0 0 24px;
-  text-transform: uppercase;
-}
-
-@media (max-width: 25em) {
-  .services__title {
-    font-size: 1.5em;
-  }
-}
-
-.services__subtitle {
-  color: #777;
-  font-family: "Roboto Slab", serif;
-  font-size: 20px;
-  font-weight: normal;
-  margin: 0 0 86px;
-}
-
-@media (max-width: 25em) {
-  .services__subtitle {
-    font-size: 1em;
-  }
 }
 
 .services__row::before, .services__row::after {
@@ -56,17 +27,14 @@
     padding-right: 0;
     width: 100%;
   }
+
+  .services__col:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .services__icon-container {
   height: 86px;
-}
-
-.services__feature-name {
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  text-transform: uppercase;
 }
 
 .services__feature-description {
