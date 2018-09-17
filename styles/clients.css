@@ -1,3 +1,5 @@
+@import 'clients__text-box.css';
+
 .clients__testimonial {
   position: relative;
 }
@@ -34,82 +36,4 @@
 .clients__image {
   width: 100%;
   height: auto;
-}
-
-.clients__text-box {
-  background-color: #f9f9f9;
-  box-sizing: border-box;
-  font-family: "Roboto Slab", serif;
-  max-width: 642px;
-  padding: 1em;
-}
-
-@media (min-width: 48em) {
-  .clients__text-box {
-    padding: 45px;
-  }
-
-  .clients__text-box--right {
-    margin-left: 45px;
-    margin-right: 35px;
-  }
-
-  .clients__text-box--left {
-    margin-left: 35px;
-    margin-right: 45px;
-  }
-}
-
-.clients__quote {
-  color: #777;
-  font-size: 22px;
-  line-height: 1.5;
-  margin: 0 0 0.5em;
-  position: relative;
-}
-
-.clients__quote::before {
-  content: '“';
-}
-
-.clients__quote::after {
-  content: '”';
-}
-
-@media (min-width: 48em) {
-  .clients__quote::before {
-    margin-left: -0.6em;
-    position: absolute;
-  }
-
-  .clients__quote::after {
-    margin-left: 0.2em;
-    position: absolute;
-  }
-}
-
-.clients__client {
-  color: #7cc576;
-  display: block;
-  font-size: 18px;
-  font-style: normal;
-  margin-left: 65px;
-  position: relative;
-}
-
-@media (max-width: 48em) {
-  .clients__client {
-    margin-left: 0;
-  }
-}
-
-.clients__client::before {
-  content: '- ';
-}
-
-@media (min-width: 48em) {
-  .clients__client::before {
-    margin-left: -0.6em;
-    position: absolute;
-  }
 }
