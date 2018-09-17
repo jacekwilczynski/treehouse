@@ -3,12 +3,6 @@
   position: relative;
 }
 
-.header__row::before, .header__row::after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
 @media (max-width: 41em) {
   .header__row {
     height: 3.4em;
