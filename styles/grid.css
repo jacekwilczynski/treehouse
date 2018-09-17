@@ -11,6 +11,10 @@
   width: 33%;
 }
 
+.grid--tight .grid__cell {
+  padding-right: 30px;
+}
+
 .grid__cell:last-child {
   padding-right: 0;
 }
