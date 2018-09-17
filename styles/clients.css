@@ -32,6 +32,19 @@
   font-size: 22px;
   line-height: 1.5;
   margin: 0 0 0.5em;
+  position: relative;
+}
+
+.clients__quote::before {
+  content: '“';
+  margin-left: -0.6em;
+  position: absolute;
+}
+
+.clients__quote::after {
+  content: '”';
+  margin-left: 0.2em;
+  position: absolute;
 }
 
 .clients__client {
