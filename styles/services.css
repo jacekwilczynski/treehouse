@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.services__title {
-  margin: 0 0 24px;
-}
-
 .services__row::before, .services__row::after {
   clear: both;
   content: '';
