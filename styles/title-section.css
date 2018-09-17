@@ -8,21 +8,17 @@
   padding: 118px 1em;
 }
 
-.title-section__text {
-  margin: 0 auto;
-}
-
-.title-section__text--primary {
-  margin-bottom: 40px;
+.title-section__title {
+  margin: 0 auto 40px;
   max-width: 10em;
 }
 
 @media (max-width: 41em) {
-  .title-section__text--primary {
+  .title-section__title {
     font-size: 2em;
   }
 }
 
-.title-section__text--secondary {
+.title-section__subtitle {
   margin-bottom: 53px;
 }
