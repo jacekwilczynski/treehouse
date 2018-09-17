@@ -1,6 +1,17 @@
+.clients__testimonial {
+  display: table;
+}
+
 .clients__image-container {
   background-color: #f9f9f9;
   border-radius: 50%;
+  display: table-cell;
   height: 220px;
+  vertical-align: middle;
   width: 220px;
+}
+
+.clients__text-container {
+  display: table-cell;
+  vertical-align: middle;
 }
