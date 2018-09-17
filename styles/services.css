@@ -2,45 +2,6 @@
   text-align: center;
 }
 
-.services__row::before, .services__row::after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-.services__col {
-  box-sizing: border-box;
-  float: left;
-  padding-right: 55px;
-  width: 33%;
-}
-
-.services__col:last-child {
-  padding-right: 0;
-}
-
-@media (max-width: 48em) {
-  .services__col {
-    float: none;
-    margin: 0 auto 3em;
-    max-width: 20em;
-    padding-right: 0;
-    width: 100%;
-  }
-
-  .services__col:last-child {
-    margin-bottom: 0;
-  }
-}
-
 .services__icon-container {
   height: 86px;
-}
-
-.services__feature-description {
-  color: #777;
-  font-family: "Roboto Slab", serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
 }

@@ -1,0 +1,20 @@
+.culture {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.culture__icon-container {
+  border: 3px solid #777;
+  border-radius: 50%;
+  height: 86px;
+  margin: 0 auto;
+  position: relative;
+  width: 86px;
+}
+
+.culture__icon {
+  left: 49%;
+  position: absolute;
+  top: 49%;
+  transform: translate(-50%, -50%);
+}
