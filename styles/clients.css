@@ -12,6 +12,25 @@
 }
 
 .clients__text-container {
+  box-sizing: border-box;
   display: table-cell;
+  font-family: "Roboto Slab", serif;
+  max-width: 642px;
+  padding: 45px;
   vertical-align: middle;
+}
+
+.clients__quote {
+  color: #777;
+  font-size: 22px;
+  line-height: 1.27;
+  margin: 0;
+}
+
+.clients__identity {
+  color: #7cc576;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 2;
+  margin-left: 52px;
 }
