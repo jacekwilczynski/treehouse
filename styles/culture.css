@@ -42,6 +42,12 @@
   display: none;
 }
 
+@media (max-width: 48em) {
+  .culture__icon-container::before, .culture__icon-container::after {
+    display: none;
+  }
+}
+
 .culture__icon {
   left: 49%;
   position: absolute;
