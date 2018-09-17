@@ -1,0 +1,30 @@
+.grid::before, .grid::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.grid__cell {
+  box-sizing: border-box;
+  float: left;
+  padding-right: 55px;
+  width: 33%;
+}
+
+.grid__cell:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 48em) {
+  .grid__cell {
+    float: none;
+    margin: 0 auto 3em;
+    max-width: 20em;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .grid__cell:last-child {
+    margin-bottom: 0;
+  }
+}
