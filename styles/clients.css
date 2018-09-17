@@ -35,14 +35,16 @@
   padding: 45px;
 }
 
-.clients__text-box--right {
-  margin-left: 45px;
-  margin-right: 35px;
-}
+@media (min-width: 48em) {
+  .clients__text-box--right {
+    margin-left: 45px;
+    margin-right: 35px;
+  }
 
-.clients__text-box--left {
-  margin-left: 35px;
-  margin-right: 45px;
+  .clients__text-box--left {
+    margin-left: 35px;
+    margin-right: 45px;
+  }
 }
 
 .clients__quote {
