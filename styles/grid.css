@@ -4,6 +4,14 @@
   display: table;
 }
 
+.grid {
+  margin-right: -55px;
+}
+
+.grid--tight {
+  margin-right: -30px;
+}
+
 .grid__cell {
   box-sizing: border-box;
   float: left;
@@ -11,8 +19,8 @@
   width: 33%;
 }
 
-.grid__cell:last-child {
-  padding-right: 0;
+.grid--tight .grid__cell {
+  padding-right: 30px;
 }
 
 @media (max-width: 48em) {
