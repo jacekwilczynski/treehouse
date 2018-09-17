@@ -30,8 +30,8 @@
 .clients__quote {
   color: #777;
   font-size: 22px;
-  line-height: 1.27;
-  margin: 0;
+  line-height: 1.5;
+  margin: 0 0 0.5em;
 }
 
 .clients__client {
