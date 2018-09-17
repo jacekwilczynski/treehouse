@@ -36,12 +36,15 @@
 
 .clients__client {
   color: #7cc576;
+  display: block;
   font-size: 18px;
   font-style: normal;
-  line-height: 2;
-  margin-left: 52px;
+  margin-left: 65px;
+  position: relative;
 }
 
 .clients__client::before {
-  content: '- ';
+  content: '-';
+  position: absolute;
+  transform: translate(-150%, 0);
 }
