@@ -13,6 +13,10 @@
   margin-right: -30px;
 }
 
+.grid--very-tight {
+  margin-right: 1rem;
+}
+
 .grid__cell {
   box-sizing: border-box;
   float: left;
@@ -36,6 +40,10 @@
 
 .grid--tight .grid__cell {
   padding-right: 30px;
+}
+
+.grid--very-tight .grid__cell {
+  padding-right: 1rem;
 }
 
 @media (max-width: 48em) {
