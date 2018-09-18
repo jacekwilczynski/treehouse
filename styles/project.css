@@ -37,4 +37,29 @@
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  transition: opacity 0.3s;
+}
+
+.project__link:hover {
+  opacity: 0.75;
+}
+
+.project__arrow {
+  margin-left: 0.25em;
+}
+
+.project__link:hover .project__arrow {
+  animation-name: project__arrow-hover;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes project__arrow-hover {
+  from {
+    transform: translate(0, 0)
+  }
+  to {
+    transform: translate(200%, 0)
+  }
 }
