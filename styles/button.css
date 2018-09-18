@@ -31,4 +31,14 @@
   color: inherit;
   font-size: 18px;
   padding: 14px 26px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.button--rectangular:hover {
+  border-color: transparent;
+}
+
+.button--rectangular:active {
+  background-color: #fff;
+  color: #7cc576;
 }
