@@ -1,0 +1,27 @@
+.social-icons {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-icons__circle {
+  background-color: #222;
+  border-radius: 50%;
+  display: inline-block;
+  height: 40px;
+  margin-right: 8px;
+  position: relative;
+  width: 40px;
+}
+
+.social-icons__circle:last-child {
+  margin-right: 0;
+}
+
+.social-icons__image {
+  left: 50%;
+  max-height: 18px;
+  max-width: 18px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

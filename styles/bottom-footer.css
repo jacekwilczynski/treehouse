@@ -1,0 +1,23 @@
+.bottom-footer__container {
+  padding: 1.5em;
+  position: relative;
+}
+
+.bottom-footer__copyright {
+  color: #555;
+  font-size: 14px;
+  left: 1.5em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+@media (max-width: 48em) {
+  .bottom-footer__copyright {
+    margin-bottom: 1.5em;
+    position: static;
+    text-align: center;
+    transform: none;
+  }
+}
