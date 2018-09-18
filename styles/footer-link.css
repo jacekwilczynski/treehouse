@@ -6,14 +6,16 @@
   text-decoration: inherit;
 }
 
-.footer-link__icon {
+.footer-link__icon-container {
   left: 0;
   position: absolute;
+  text-align: center;
   top: 0.6em;
   transform: translate(0, -40%);
+  width: 2em;
 }
 
-.footer-link--multiline .footer-link__icon {
+.footer-link--multiline .footer-link__icon-container {
   top: 4px;
   transform: none;
 }
