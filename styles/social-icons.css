@@ -10,11 +10,16 @@
   height: 40px;
   margin-right: 8px;
   position: relative;
+  transition: opacity 0.3s;
   width: 40px;
 }
 
 .social-icons__circle:last-child {
   margin-right: 0;
+}
+
+.social-icons__circle:hover {
+  opacity: 0.5;
 }
 
 .social-icons__image {
