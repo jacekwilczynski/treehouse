@@ -12,3 +12,12 @@
   top: 50%;
   transform: translate(0, -50%);
 }
+
+@media (max-width: 48em) {
+  .bottom-footer__copyright {
+    margin-bottom: 1.5em;
+    position: static;
+    text-align: center;
+    transform: none;
+  }
+}
