@@ -4,6 +4,11 @@
   font-size: 16px;
   position: relative;
   text-decoration: inherit;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .footer-link__icon-container {
