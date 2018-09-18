@@ -2,5 +2,17 @@
   color: inherit;
   font-family: "Roboto Slab", serif;
   font-size: 16px;
+  position: relative;
   text-decoration: inherit;
+}
+
+.footer-link__icon {
+  left: 0;
+  position: absolute;
+  top: 5px;
+}
+
+.footer-link__body {
+  display: block;
+  margin-left: 2.5em;
 }
