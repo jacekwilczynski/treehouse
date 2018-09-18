@@ -22,5 +22,16 @@
 
 .footer-link__body {
   display: block;
+  line-height: 1.5rem;
   margin-left: 2.5em;
+}
+
+.footer-link__hashtags {
+  display: block;
+  font-weight: bold;
+}
+
+.footer-link__time {
+  display: block;
+  font-size: 12px;
 }
