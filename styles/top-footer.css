@@ -1,0 +1,9 @@
+.top-footer {
+  background-color: #222;
+  color: #ececec;
+}
+
+.top-footer__list {
+  list-style: none;
+  padding: 0;
+}
