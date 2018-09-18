@@ -9,7 +9,13 @@
 .footer-link__icon {
   left: 0;
   position: absolute;
-  top: 5px;
+  top: 0.6em;
+  transform: translate(0, -40%);
+}
+
+.footer-link--multiline .footer-link__icon {
+  top: 4px;
+  transform: none;
 }
 
 .footer-link__body {
