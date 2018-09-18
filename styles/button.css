@@ -13,3 +13,12 @@
   padding: 24px 36px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
 }
+
+.button--rectangular {
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  color: inherit;
+  font-size: 18px;
+  padding: 14px 26px;
+}
