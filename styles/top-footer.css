@@ -3,6 +3,14 @@
   color: #ececec;
 }
 
+.top-footer__row {
+  margin-bottom: -6em;
+}
+
+.top-footer__column {
+  margin-bottom: 6em;
+}
+
 .top-footer__heading {
   margin-bottom: 1.4em;
 }
