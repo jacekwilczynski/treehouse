@@ -1,4 +1,5 @@
 .button {
+  cursor: pointer;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -12,6 +13,15 @@
   font-size: 15px;
   padding: 24px 36px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  transition: background-color 0.2s;
+}
+
+.button--rounded:hover {
+  background-color: #5aa354;
+}
+
+.button--rounded:active {
+  background-color: #388132;
 }
 
 .button--rectangular {
