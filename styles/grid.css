@@ -19,6 +19,16 @@
   width: 33%;
 }
 
+.grid__cell--1-4 {
+  width: 25%;
+}
+
+@media (max-width: 72em) {
+  .grid__cell--1-4 {
+    width: 50%;
+  }
+}
+
 .grid--tight .grid__cell {
   padding-right: 30px;
 }
@@ -34,6 +44,10 @@
     max-width: 20em;
     padding-right: 0;
     width: 100%;
+  }
+
+  .grid__cell--1-4 {
+    width: 50%;
   }
 
   .grid--tight .grid__cell {
