@@ -6,12 +6,6 @@
 
 .project-features__item {
   margin-bottom: 1em;
-  display: table;
-}
-
-.project-features__icon {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .project-features__circle {
@@ -30,9 +24,7 @@
 }
 
 .project-features__text {
-  display: table-cell;
   padding-left: 1em;
-  vertical-align: middle;
 }
 
 .project-features__name {
