@@ -1,8 +1,13 @@
-.brands {
-  text-align: center;
+.brands__brand {
+  height: 42px;
+  position: relative;
 }
 
 .brands__logo {
   height: auto;
+  left: 50%;
   max-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
