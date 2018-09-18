@@ -38,6 +38,7 @@
 
 @media (max-width: 48em) {
   .grid {
+    margin-bottom: -3em;
     margin-right: 0;
   }
 
@@ -51,9 +52,5 @@
 
   .grid--tight .grid__cell {
     padding-right: 0;
-  }
-
-  .grid__cell:last-child {
-    margin-bottom: 0;
   }
 }
