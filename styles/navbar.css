@@ -1,4 +1,6 @@
 .navbar {
+  color: #777;
+  font-weight: 600;
   position: relative;
 }
 
@@ -6,11 +8,12 @@
   background: none;
   border: 0;
   border-radius: 10px;
+  color: inherit;
   padding: 6px 12px;
 }
 
 .navbar__hamburger-stripe {
-  background-color: #000;
+  background-color: currentColor;
   display: block;
   height: 5px;
   margin: 6px 0;

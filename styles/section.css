@@ -10,6 +10,10 @@
   margin-bottom: 0;
 }
 
+.section--light {
+  color: #222;
+}
+
 .section--dark {
   color: #fff;
 }
@@ -47,4 +51,8 @@
 
 .section--light .section__subtitle {
   color: #777;
+}
+
+.section--dark .section__subtitle {
+  color: #ccc;
 }
