@@ -5,5 +5,10 @@
 
 .top-footer__list {
   list-style: none;
+  margin-bottom: -1.25em;
   padding: 0;
+}
+
+.top-footer__item {
+  margin-bottom: 1.25em;
 }
