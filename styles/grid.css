@@ -5,6 +5,7 @@
 }
 
 .grid {
+  margin-bottom: -3em;
   margin-right: -55px;
 }
 
@@ -15,6 +16,7 @@
 .grid__cell {
   box-sizing: border-box;
   float: left;
+  margin: 0 auto 3em;
   padding-right: 55px;
 }
 
@@ -38,13 +40,11 @@
 
 @media (max-width: 48em) {
   .grid {
-    margin-bottom: -3em;
     margin-right: 0;
   }
 
   .grid__cell {
     float: none;
-    margin: 0 auto 3em;
     max-width: 20em;
     padding-right: 0;
     width: 100%;
