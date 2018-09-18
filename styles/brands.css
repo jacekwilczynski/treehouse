@@ -1,3 +1,8 @@
 .brands {
   text-align: center;
 }
+
+.brands__logo {
+  height: auto;
+  max-width: 100%;
+}
