@@ -45,7 +45,7 @@
     text-align: center;
     transform: scale(1, 0);
     transform-origin: top;
-    transition: 0.2s;
+    transition: opacity 0.2s, transform 0.2s;
     width: 100vw;
   }
 
