@@ -71,4 +71,9 @@
   color: inherit;
   padding: 0 1.29em;
   text-decoration: inherit;
+  transition: color 0.2s;
+}
+
+.navbar__link:hover {
+  color: #7cc576;
 }
