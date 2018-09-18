@@ -1,0 +1,37 @@
+.footer-link {
+  color: inherit;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  position: relative;
+  text-decoration: inherit;
+}
+
+.footer-link__icon-container {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0.75em;
+  transform: translate(0, -40%);
+  width: 2em;
+}
+
+.footer-link--multiline .footer-link__icon-container {
+  top: 4px;
+  transform: none;
+}
+
+.footer-link__body {
+  display: block;
+  line-height: 1.5rem;
+  margin-left: 2.5em;
+}
+
+.footer-link__hashtags {
+  display: block;
+  font-weight: bold;
+}
+
+.footer-link__time {
+  display: block;
+  font-size: 12px;
+}

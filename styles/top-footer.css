@@ -1,0 +1,36 @@
+.top-footer {
+  background-color: #222;
+  color: #ececec;
+}
+
+.top-footer__row {
+  margin-bottom: -6em;
+}
+
+.top-footer__column {
+  margin-bottom: 6em;
+}
+
+.top-footer__heading {
+  margin-bottom: 1.4em;
+}
+
+.top-footer__list {
+  list-style: none;
+  margin-bottom: -1.1em;
+  padding: 0;
+}
+
+.top-footer__item {
+  margin-bottom: 1.1em;
+}
+
+@media (max-width: 48em) {
+  .top-footer__row {
+    margin-bottom: 0;
+  }
+
+  .top-footer__column:last-child {
+    margin-bottom: 0;
+  }
+}
