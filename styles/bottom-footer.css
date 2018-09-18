@@ -1,0 +1,12 @@
+.bottom-footer__container {
+  position: relative;
+}
+
+.bottom-footer__copyright {
+  color: #555;
+  font-size: 14px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
