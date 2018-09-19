@@ -1,4 +1,6 @@
 (function() {
+  var headerHeight = 54;
+
   function getInnerLinks() {
     var links = document.getElementsByTagName("a");
     var innerLinks = [];
@@ -17,7 +19,7 @@
     link.addEventListener("click", function(e) {
       e.preventDefault();
       window.scrollTo({
-        top: target.offsetTop - 54,
+        top: target.offsetTop - headerHeight,
         behavior: "smooth"
       });
     });
