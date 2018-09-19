@@ -24,17 +24,19 @@
     return result;
   }
 
-  var categorizedLinks = categorizeByHref(document.getElementsByTagName("a"));
-  categorizedLinks.internal.forEach(function(link) {
-    var href = link.getAttribute("href");
+  function scrollToTarget(anchor) {
+    var href = anchor.getAttribute("href");
     var targetId = href.slice(1);
     var target = document.getElementById(targetId);
-    link.addEventListener("click", function(e) {
+    anchor.addEventListener("click", function(e) {
       e.preventDefault();
       window.scrollTo({
         top: target.offsetTop - headerHeight,
         behavior: "smooth"
       });
     });
-  });
+  }
+
+  var anchors = categorizeByHref(document.getElementsByTagName("a"));
+  anchors.internal.forEach(scrollToTarget);
 })();
