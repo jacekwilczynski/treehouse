@@ -16,10 +16,8 @@
     var target = document.getElementById(targetId);
     link.addEventListener("click", function(e) {
       e.preventDefault();
-      var headerHeight =
-        document.getElementById("header").getBoundingClientRect().bottom - 1;
       window.scrollTo({
-        top: target.offsetTop - headerHeight,
+        top: target.offsetTop - 55,
         behavior: "smooth"
       });
     });
