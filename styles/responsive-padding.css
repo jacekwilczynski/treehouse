@@ -2,14 +2,14 @@
   padding: 100px;
 }
 
-@media (max-width: 34em) {
+@media (max-width: 48em) {
   .responsive-padding {
-    padding: calc(-100px + 36.74vw);
+    padding: 13.02vw calc(-60px + 20.83vw);
   }
 }
 
-@media (max-width: 20em) {
+@media (max-width: 24em) {
   .responsive-padding {
-    padding: 1.1em;
+    padding: 50px 20px;
   }
 }
