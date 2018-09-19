@@ -7,7 +7,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto+Slab">
   <link rel="stylesheet" href="styles/index.css">
 </head>
-<body>
+<body class="js-class-switch"
+      data-switch-behavior="remove"
+      data-switch-class="navbar__list--open"
+      data-switch-target="#navbar__list">
   <div id="top" hidden></div>
   <header id="header" class="header">
     <div class="container">
@@ -23,8 +26,11 @@
           </a>
         </div>
         <div class="header__col header__col--navbar">
-          <nav class="navbar" data-toggle-class="navbar__list--open" data-target="#navbar__list">
-            <button class="navbar__toggle">
+          <nav class="navbar">
+            <button class="navbar__toggle js-class-switch"
+                    data-switch-behavior="toggle"
+                    data-switch-class="navbar__list--open"
+                    data-switch-target="#navbar__list">
               <span class="navbar__hamburger-stripe"></span>
               <span class="navbar__hamburger-stripe"></span>
               <span class="navbar__hamburger-stripe"></span>
@@ -440,7 +446,7 @@
       </div>
     </div>
   </footer>
-  <script src="scripts/class-toggle.js"></script>
+  <script src="scripts/class-switch.js"></script>
   <script src="scripts/smooth-scroll.js"></script>
 </body>
 </html>
