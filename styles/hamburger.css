@@ -23,14 +23,14 @@
   transform-origin: left bottom;
 }
 
-.hamburger:hover .hamburger__stripe--top {
+.hamburger--active .hamburger__stripe--top {
   transform: translate(7px, 0) rotate(45deg);
 }
 
-.hamburger:hover .hamburger__stripe--middle {
+.hamburger--active .hamburger__stripe--middle {
   opacity: 0;
 }
 
-.hamburger:hover .hamburger__stripe--bottom {
+.hamburger--active .hamburger__stripe--bottom {
   transform: translate(7px, 0) rotate(-45deg);
 }

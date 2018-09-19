@@ -9,8 +9,8 @@
 </head>
 <body class="js-class-switch"
       data-switch-behavior="remove"
-      data-switch-class="navbar__list--open"
-      data-switch-target="#navbar__list">
+      data-switch-class="hamburger--active"
+      data-switch-target="#navbar__toggle">
   <div id="top" hidden></div>
   <header id="header" class="header">
     <div class="container">
@@ -28,14 +28,15 @@
         <div class="header__col header__col--navbar">
           <nav class="navbar">
             <button class="hamburger navbar__toggle js-class-switch"
+                    id="navbar__toggle"
                     data-switch-behavior="toggle"
-                    data-switch-class="navbar__list--open"
-                    data-switch-target="#navbar__list">
+                    data-switch-class="hamburger--active"
+                    data-switch-target="#navbar__toggle">
               <span class="hamburger__stripe hamburger__stripe--top"></span>
               <span class="hamburger__stripe hamburger__stripe--middle"></span>
               <span class="hamburger__stripe hamburger__stripe--bottom"></span>
             </button>
-            <ul class="navbar__list" id="navbar__list">
+            <ul class="navbar__list">
               <li class="navbar__item"><a href="#top" class="navbar__link">Home</a></li>
               <li class="navbar__item"><a href="#services" class="navbar__link">About</a></li>
               <li class="navbar__item"><a href="#relax" class="navbar__link">Blog</a></li>
