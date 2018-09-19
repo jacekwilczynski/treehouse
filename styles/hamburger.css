@@ -12,4 +12,25 @@
   height: 5px;
   margin: 6px 0;
   width: 35px;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.hamburger__stripe--top {
+  transform-origin: left top;
+}
+
+.hamburger__stripe--bottom {
+  transform-origin: left bottom;
+}
+
+.hamburger:hover .hamburger__stripe--top {
+  transform: translate(7px, 0) rotate(45deg);
+}
+
+.hamburger:hover .hamburger__stripe--middle {
+  opacity: 0;
+}
+
+.hamburger:hover .hamburger__stripe--bottom {
+  transform: translate(7px, 0) rotate(-45deg);
 }
