@@ -25,7 +25,6 @@
   }
 
   var categorizedLinks = categorizeByHref(document.getElementsByTagName("a"));
-  console.log(categorizedLinks);
   categorizedLinks.internal.forEach(function(link) {
     var href = link.getAttribute("href");
     var targetId = href.slice(1);
