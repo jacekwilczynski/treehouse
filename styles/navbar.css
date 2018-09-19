@@ -58,6 +58,7 @@
 .navbar__link {
   color: inherit;
   display: inline-block;
+  line-height: 55px;
   padding: 0 1.29em;
   text-decoration: inherit;
   transition: color 0.2s;
