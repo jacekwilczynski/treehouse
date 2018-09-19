@@ -17,7 +17,7 @@
     link.addEventListener("click", function(e) {
       e.preventDefault();
       window.scrollTo({
-        top: target.offsetTop - 55,
+        top: target.offsetTop - 54,
         behavior: "smooth"
       });
     });
