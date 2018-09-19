@@ -37,6 +37,15 @@
     });
   }
 
+  function preventDefault(event) {
+    event.preventDefault();
+  }
+
+  function disableAnchor(anchor) {
+    anchor.onclick = preventDefault;
+  }
+
   var anchors = categorizeByHref(document.getElementsByTagName("a"));
   anchors.internal.forEach(scrollToTarget);
+  anchors.dummy.forEach(disableAnchor);
 })();
