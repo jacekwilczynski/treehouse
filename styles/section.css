@@ -41,6 +41,12 @@
   text-align: center;
 }
 
+@media (max-width: 41em) {
+  .section__subtitle {
+    margin: 0 0 50px;
+  }
+}
+
 .section--light .section__subtitle {
   color: #777;
 }

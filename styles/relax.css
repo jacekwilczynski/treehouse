@@ -47,6 +47,12 @@
   margin-bottom: 43px;
 }
 
+@media (max-width: 41em) {
+  .relax__title {
+    margin-bottom: 1rem;
+  }
+}
+
 .relax__title--accent {
   color: #7cc576;
 }
@@ -66,6 +72,12 @@
   list-style: none;
   margin-bottom: 50px;
   padding: 0;
+}
+
+@media (max-width: 41em) {
+  .relax__list {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .relax__item {
