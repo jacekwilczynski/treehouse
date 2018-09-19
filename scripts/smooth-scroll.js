@@ -1,4 +1,6 @@
 (function() {
+  var headerHeight = 54;
+
   function getInnerLinks() {
     var links = document.getElementsByTagName("a");
     var innerLinks = [];
@@ -16,8 +18,6 @@
     var target = document.getElementById(targetId);
     link.addEventListener("click", function(e) {
       e.preventDefault();
-      var headerHeight =
-        document.getElementById("header").getBoundingClientRect().bottom - 1;
       window.scrollTo({
         top: target.offsetTop - headerHeight,
         behavior: "smooth"
