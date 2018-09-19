@@ -1,5 +1,11 @@
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: -30px;
+}
+
 .header__row {
-  height: 115px;
+  height: 85px;
   position: relative;
 }
 
@@ -11,7 +17,7 @@
 
 .header__col {
   position: absolute;
-  top: 50%;
+  top: calc(50% + 15px);
   transform: translate(0, -50%);
 }
 
@@ -33,4 +39,9 @@
     left: 0;
     right: auto;
   }
+}
+
+.header__placeholder {
+  background-color: #fff;
+  height: 30px;
 }
