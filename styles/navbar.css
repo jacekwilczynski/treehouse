@@ -23,7 +23,6 @@
 @media (max-width: 41em) {
   .navbar__list {
     font-size: 1em;
-    line-height: 4;
     opacity: 0;
     position: absolute;
     text-align: center;
@@ -58,6 +57,7 @@
 
 .navbar__link {
   color: inherit;
+  display: inline-block;
   padding: 0 1.29em;
   text-decoration: inherit;
   transition: color 0.2s;
@@ -65,4 +65,10 @@
 
 .navbar__link:hover {
   color: #7cc576;
+}
+
+@media (max-width: 41em) {
+  .navbar__link {
+    line-height: 4;
+  }
 }
