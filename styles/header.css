@@ -27,12 +27,6 @@
   position: relative;
 }
 
-@media (max-width: 41em) {
-  .header__row {
-    height: 3.4em;
-  }
-}
-
 .header__col {
   position: absolute;
   top: calc(50% + 15px);
@@ -48,6 +42,26 @@
 }
 
 @media (max-width: 41em) {
+  .header {
+    top: 0;
+  }
+
+  .header__shadow {
+    height: 3.4em;
+  }
+
+  .header__placeholder {
+    display: none;
+  }
+
+  .header__row {
+    height: 3.4em;
+  }
+
+  .header__col {
+    top: 50%;
+  }
+
   .header__col--logo {
     left: auto;
     right: 0;
