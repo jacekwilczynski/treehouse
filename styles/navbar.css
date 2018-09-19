@@ -71,5 +71,7 @@
 @media (max-width: 41em) {
   .navbar__link {
     line-height: 4;
+    padding: 0;
+    width: 100%;
   }
 }
