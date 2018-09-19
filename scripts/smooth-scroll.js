@@ -16,7 +16,12 @@
     var target = document.getElementById(targetId);
     link.addEventListener("click", function(e) {
       e.preventDefault();
-      window.scrollTo({ top: target.offsetTop, behavior: "smooth" });
+      var headerHeight =
+        document.getElementById("header").getBoundingClientRect().bottom - 1;
+      window.scrollTo({
+        top: target.offsetTop - headerHeight,
+        behavior: "smooth"
+      });
     });
   });
 })();
