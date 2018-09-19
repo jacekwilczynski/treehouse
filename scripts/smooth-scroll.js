@@ -10,4 +10,13 @@
   }
 
   var innerLinks = getInnerLinks();
+  innerLinks.forEach(function(link) {
+    var href = link.getAttribute("href");
+    var targetId = href.slice(1);
+    var target = document.getElementById(targetId);
+    link.addEventListener("click", function(e) {
+      e.preventDefault();
+      window.scrollTo({ top: target.offsetTop, behavior: "smooth" });
+    });
+  });
 })();
