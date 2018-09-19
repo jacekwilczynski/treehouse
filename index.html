@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div class="container">
       <div class="header__row">
         <div class="header__col header__col--logo">
@@ -29,11 +29,11 @@
               <span class="navbar__hamburger-stripe"></span>
             </button>
             <ul class="navbar__list" id="navbar__list">
-              <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
-              <li class="navbar__item"><a href="#" class="navbar__link">About</a></li>
-              <li class="navbar__item"><a href="#" class="navbar__link">Blog</a></li>
-              <li class="navbar__item"><a href="#" class="navbar__link">Portfolio</a></li>
-              <li class="navbar__item"><a href="#" class="navbar__link">Contact</a></li>
+              <li class="navbar__item"><a href="#header" class="navbar__link">Home</a></li>
+              <li class="navbar__item"><a href="#services" class="navbar__link">About</a></li>
+              <li class="navbar__item"><a href="#relax" class="navbar__link">Blog</a></li>
+              <li class="navbar__item"><a href="#project" class="navbar__link">Portfolio</a></li>
+              <li class="navbar__item"><a href="#footer" class="navbar__link">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -41,7 +41,7 @@
     </div>
   </header>
   <div class="header__placeholder"></div>
-  <section class="section section--dark title-section">
+  <section id="title-section" class="section section--dark title-section">
     <div class="title-section__overlay">
       <h1 class="section__title section__title--big title-section__title">
         Creative Digital Solutions
@@ -49,10 +49,10 @@
       <h2 class="section__subtitle title-section__subtitle">
         Proin iaculis purus consequat sem cure.
       </h2>
-      <button class="button button--rounded">View Portfolio</button>
+      <a href="#project" class="button button--rounded">View Portfolio</a>
     </div>
   </section>
-  <section class="section section--light services responsive-padding">
+  <section id="services" class="section section--light services responsive-padding">
     <div class="container">
       <h1 class="section__title services__title">Professional Services</h1>
       <h2 class="section__subtitle services__subtitle">Proin iaculis purus consequat sem cure</h2>
@@ -93,7 +93,7 @@
       </div>
     </div>
   </section>
-  <section class="section section--dark relax">
+  <section id="relax" class="section section--dark relax">
     <div class="relax__right">
       <div class="relax__left">
         <img src="images/relax__gear.svg" alt="gear" class="relax__gear">
@@ -114,11 +114,11 @@
           <li class="relax__item">Regular Updates</li>
           <li class="relax__item">Round The Clock Support</li>
         </ul>
-        <button class="button button--rounded">Learn More</button>
+        <a href="#culture" class="button button--rounded">Learn More</a>
       </div>
     </div>
   </section>
-  <section class="section section--light project responsive-padding">
+  <section id="project" class="section section--light project responsive-padding">
     <div class="container">
       <h1 class="section__title project__title">Latest Project</h1>
       <h2 class="section__subtitle project__subtitle">Proin iaculis purus consequat sem cure</h2>
@@ -174,14 +174,14 @@
           Proin iaculis purus consequat sem cure digni ssim donec
           porttitora entum suscipit aenean rhoncus posuere odio in.
         </p>
-        <a href="#" class="project__link">
+        <a href="#ready" class="project__link">
           View Details
           <img src="images/project__link-arrow.svg" alt="" class="project__arrow">
         </a>
       </div>
     </div>
   </section>
-  <section class="section section--light culture responsive-padding">
+  <section id="culture" class="section section--light culture responsive-padding">
     <div class="container">
       <h1 class="section__title">Culture & Values</h1>
       <h2 class="section__subtitle">Proin iaculis purus consequat cure.</h2>
@@ -222,7 +222,7 @@
       </div>
     </div>
   </section>
-  <section class="section section--light clients responsive-padding">
+  <section id="clients" class="section section--light clients responsive-padding">
     <div class="container">
       <h1 class="section__title">Our Awesome Clients</h1>
       <h2 class="section__subtitle">Proin iaculis purus consequat sem cure.</h2>
@@ -260,11 +260,11 @@
       </div>
     </div>
   </section>
-  <section class="section section--dark ready responsive-padding">
+  <section id="ready" class="section section--dark ready responsive-padding">
     <h1 class="section__title ready__title">Ready to talk about your next project?</h1>
-    <button class="button button--rectangular">Contact Us</button>
+    <a href="#footer" class="button button--rectangular">Contact Us</a>
   </section>
-  <section class="section brands responsive-padding">
+  <section id="brands" class="section brands responsive-padding">
     <div class="container">
       <div class="grid">
         <div class="grid__cell grid__cell--1-4 brands__brand">
@@ -292,7 +292,7 @@
       </div>
     </div>
   </section>
-  <footer>
+  <footer id="footer">
     <div class="section section--dark top-footer responsive-padding">
       <div class="container">
         <div class="grid grid--very-tight top-footer__row">
@@ -439,5 +439,6 @@
     </div>
   </footer>
   <script src="scripts/class-toggle.js"></script>
+  <script src="scripts/smooth-scroll.js"></script>
 </body>
 </html>

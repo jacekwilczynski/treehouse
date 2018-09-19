@@ -1,7 +1,9 @@
 .button {
   cursor: pointer;
+  display: inline-block;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
+  text-decoration: inherit;
   text-transform: uppercase;
 }
 
