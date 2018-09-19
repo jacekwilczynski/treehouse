@@ -4,22 +4,6 @@
   position: relative;
 }
 
-.navbar__toggle {
-  background: none;
-  border: 0;
-  border-radius: 10px;
-  color: inherit;
-  padding: 6px 12px;
-}
-
-.navbar__hamburger-stripe {
-  background-color: currentColor;
-  display: block;
-  height: 5px;
-  margin: 6px 0;
-  width: 35px;
-}
-
 @media (min-width: 41em) {
   .navbar__toggle {
     display: none;

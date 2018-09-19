@@ -1,0 +1,15 @@
+.hamburger {
+  background: none;
+  border: 0;
+  border-radius: 10px;
+  color: inherit;
+  padding: 6px 12px;
+}
+
+.hamburger__stripe {
+  background-color: currentColor;
+  display: block;
+  height: 5px;
+  margin: 6px 0;
+  width: 35px;
+}
